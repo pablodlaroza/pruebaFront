@@ -1,0 +1,206 @@
+#form {
+    background-color: aliceblue;
+    width: 320px;
+    margin-left: 750px;
+    position: absolute;
+    top: 100px;
+    height: 580px;
+    padding-left: 15px;
+    border-radius: 10px;
+    padding: 10px 15px 10px 40px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Añade esta línea para la sombra */
+}
+
+.azul{
+    width: 175px;
+    height: 5px;
+    position: absolute;
+    left: 42px;
+}
+#form h1{
+    margin-top: 50px;
+    color:rgb(82, 22, 22);
+    font-size: 60px;
+}
+.ENERGYY{
+    position: absolute;
+    top:60px;
+}
+
+.poppinsP{
+    font-family: 'Poppins', sans-serif;
+}
+#simpleSelect{
+    font-weight: lighter;  
+}
+#carrito{
+  top: -72px;   
+  right: -320px;
+    position: absolute;
+    width: 120px;
+}
+
+#carritoButton{
+    background-color: transparent;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 35px;
+    padding: 5px 35px 5px 15px;
+    color: rgb(120, 28, 28);
+    border-color: rgb(131, 22, 22);
+}
+
+.cart{
+    cursor: pointer;
+
+}
+
+#category{
+    position: absolute;
+    left: 44px;
+    top: 5px;
+    font-size: 16px;
+}
+#roast{
+    margin-top: 70px;
+    font-size: 12px;
+}
+#circles{
+    width: 56px;
+    position: absolute;
+    left: 130px;
+    top: 221px;
+}
+#roastt{
+    position: absolute;
+    left: 131px;
+    width: 67px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:13px;
+    bottom: 310px;
+}
+
+#taste{
+    margin-top: 35px;
+    font-size: 12px;
+}
+#tastee{
+    width: 220px;
+    font-size: 11px;
+    position: absolute;
+    left: 133px;
+    top: 264px;
+    font-weight:500;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(76, 75, 75);
+}
+
+#bag{
+    margin-top: 50px;
+    font-size: 12px;
+}
+#size{
+    position: absolute;
+    font-size: 12px;
+
+    bottom: 211px;
+    left: 78px;
+}
+
+#select{
+    font-size: 12px;
+    position: absolute;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    padding: 5px;
+    bottom: 187px;
+    left: 36px;
+    width: 270px;
+}
+
+#lineas{
+    margin-top: 40px;
+    margin-left: 2px;
+    width: 257px;
+}
+.add{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#amount{
+    position: absolute;
+    bottom: 113px;
+    left: 85px;
+}
+#price{
+    position: absolute;
+    bottom: 113px;
+    left: 180px; 
+}
+
+#plus{
+    
+    position: absolute;
+    left: 120px;
+    bottom: 130px;
+    background-color: transparent;
+    color: rgb(129, 129, 129);
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+}
+#minus{
+    position: absolute;
+    left: 40px;
+    bottom: 146px;
+    background-color: transparent;
+    color: rgb(129, 129, 129);
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+#pp{
+    font-size: 10px;
+    margin-top: 3px;
+    margin-left: 3px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 400;
+
+}
+#addd{
+    margin-top: 9px;
+    background-color: rgb(15, 15, 98);
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    font-size: 11px;
+    font-weight: bold;
+    padding:10px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+#carritoMenu{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    position: absolute;
+    top: 50px;
+    right: 1px;
+    background-color: white;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.carrito-count{
+    position: absolute;
+    right: 20px;
+    top: -5px;
+    background-color: rgb(255, 188, 2);
+    width: 8px;
+    padding: 1px 5px;
+    border-radius: 20px;
+    font-size: 13px;
+}

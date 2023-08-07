@@ -1,0 +1,11 @@
+:root{
+    background-image: url('./images/Interface.png');
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    background-size: cover; 
+    height: 1500px;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+
+
