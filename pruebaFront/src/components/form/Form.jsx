@@ -36,29 +36,21 @@ function Form() {
 
   const agregarAlCarrito = () => {
     if (contadorTemporal > 0) {
-      const productoExistente = productosEnCarrito.find(item => item.nombre === products.name);
-
-      if (productoExistente) {
-        const nuevosProductos = productosEnCarrito.map(item => {
-          if (item.nombre === products.name) {
-            return {
-              ...item,
-              cantidad: item.cantidad + contadorTemporal
-            };
-          }
-          return item;
-        });
-
+      const productoExistenteIndex = productosEnCarrito.findIndex(item => item.nombre == products.name + products.name2);
+  
+      if (productoExistenteIndex !== -1) {
+        const nuevosProductos = [...productosEnCarrito];
+        nuevosProductos[productoExistenteIndex].cantidad += contadorTemporal;
         setProductosEnCarrito(nuevosProductos);
       } else {
         const nuevoProducto = {
-          nombre: products.name,
+          nombre: products.name + products.name2,
           cantidad: contadorTemporal,
-          price: price
+          price: price,
         };
         setProductosEnCarrito([...productosEnCarrito, nuevoProducto]);
       }
-
+  
       setContadorTemporal(0);
     }
   }
